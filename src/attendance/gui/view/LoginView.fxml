@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="attendance.gui.controller.LoginViewController">
+    <children>
+        <Label layoutX="14.0" layoutY="67.0" text="Username" />
+        <TextField fx:id="textFieldUserName" layoutY="86.0" prefWidth="415.0" />
+        <Label layoutX="14.0" layoutY="139.0" text="Password" />
+        <PasswordField fx:id="passwordFieldPassword" layoutY="157.0" prefWidth="415.0"/>       
+        <Button onAction="#handleLogin" prefHeight="40.0" prefWidth="70.0" text="Login"/>
+    </children>
+</AnchorPane>
